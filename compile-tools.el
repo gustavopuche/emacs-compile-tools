@@ -30,7 +30,7 @@
 (defvar compile-tools--qtdir-android-v7 "/opt/extra/Qt5.12.3/5.12.3/android_armv7"
 	"QTDIR path.")
 
-(defvar compile-tools--clang-flags mil
+(defvar compile-tools--clang-flags nil
 	"clang debug flags")
 
 (defvar compile-tools--clang-flags-linux "-spec linux-clang CONFIG+=debug CONFIG+=qml_debug"
